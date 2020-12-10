@@ -1,5 +1,3 @@
-require 'pry'
-
 class Person
     
     @@all = []
@@ -84,6 +82,3 @@ class Person
         return "all about the benjamins"
     end
 end
-
-marc = Person.new("Marc")
-#binding.pry
